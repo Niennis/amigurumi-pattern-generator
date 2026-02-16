@@ -11,7 +11,7 @@ export function Header({ savedPatterns, onLoadPattern, onNewPattern }: HeaderPro
     <header className="bg-teal-600 text-white shadow-lg">
       <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
         <h1 className="text-xl font-bold tracking-tight">
-          Amigurumi Pattern Generator
+          Generador de patrones de amigurumi
         </h1>
         <div className="flex items-center gap-3">
           {savedPatterns.length > 0 && (

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import type { Round, GaugeData, ShapeDimensions, StitchType, CalibrationData } from '../../types';
-import { GAUGE_SWATCH_CM } from '../../types';
 import { RoundRow } from './RoundRow';
 import { PatternSummary } from './PatternSummary';
 
